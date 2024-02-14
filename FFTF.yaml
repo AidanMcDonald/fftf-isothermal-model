@@ -9,9 +9,7 @@ metadata:
 settings:
   beta: 0.00318
   burnSteps: 0
-  d3dMem: 159999000
   detailedAxialExpansion: true
-  economics: false
   epsEig: 1e-08
   epsFSAvg: 1e-07
   epsFSPoint: 1e-07
@@ -20,5 +18,14 @@ settings:
   numProcessors: 24
   outers: 1000
   power: 400000000.0
-  summarMem: 159999000
-  zoneFlowSummary: false
+  verbosity: info
+  OpenMCExePath: openmc
+  openmcVerbosity: 7
+  nParticles: 3000
+  nBatches: 100
+  nInactiveBatches: 10
+  groupStructure: "ANL33"
+  tallyMeshDimension: [100,100,100]
+  entropyMeshDimension: [8,8,8]
+  nOMPThreads: 72
+  nMPIProcesses: 1
